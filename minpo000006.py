@@ -11,7 +11,7 @@ def generate_card_news(topic):
     return result_chat_model
 
 # Streamlit 앱
-st.title("카드뉴스 생성기")
+st.title("영산대학교 카드뉴스 생성 서비스")
 
 # 사용자로부터 API 키 및 카드뉴스 주제 입력받기
 api_key = st.text_input("OpenAI API 키를 입력하세요:", type="password")
